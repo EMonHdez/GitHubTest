@@ -1,2 +1,1 @@
-# TallerGitEMH2023
-Prueba para el taller de github
+Go to stage 30
