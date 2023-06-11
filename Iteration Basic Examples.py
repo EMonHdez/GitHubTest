@@ -1,13 +1,12 @@
 def DigitCounter(number): # This function will count how many digits does the given number has.
     if isinstance(number, int):
-        num = abs(number)
         result = 0
-        while num != 0:
-            num //= 10
+        while number != 0:
+            number //= 10
             result += 1
         return result
     else:
-        return "Argument must be an integer"
+        return "Argument must be a positive integer"
 
 def Delete_Odds(number_list): # This function will delete every odd number in the list
     if isinstance(number_list, list):
